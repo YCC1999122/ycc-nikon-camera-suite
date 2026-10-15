@@ -1,0 +1,21 @@
+# Python 环境与虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# PyInstaller 构建产物
+build/
+dist/
+dist_debug/
+build_dbg*/
+*.spec.bak
+尼康相机管理.spec
+
+# 运行时数据（本机配置与下载内容）
+downloads/
+devices.json
+settings.json
+assets/tile_cache/
+
+# 临时文件
+*.log
